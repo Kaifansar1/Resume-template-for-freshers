@@ -1,0 +1,149 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+\input{glyphtounicode}
+
+% Adjust page margins
+\geometry{
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kaif Ansari} \\ \vspace{1pt}
+    \small 9380745697 $|$ \href{mailto:mdkaifansa53@gmail.com}{\underline{mdkaifansa53@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/...}} $|$
+    \href{https://github.com/...}{\underline{github.com/...}}
+\end{center}
+
+\section{Professional Summary}
+\small{Results-driven Computer Science Engineering graduate with hands-on experience in web development, machine learning, and data science. Proficient in Python, Django, and SQL, with a proven ability to deliver high-quality software solutions and contribute to team projects.}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Engineering in Computer Science}{Sep. 2020 -- July 2024}
+    {HKBK College Of Engineering}{Bangalore, India}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Programming Languages:} Python, Java, SQL \\
+   \textbf{Technologies/Frameworks:} HTML, CSS, Django, Flask \\
+   \textbf{Software and Tools:} Git, GitHub, Jupyter \\
+   \textbf{Core CS Subjects:} Data Structures and Algorithms, Operating Systems, Object-Oriented Programming, Database Management System, Computer Networks, Data Science, Artificial Intelligence, Machine Learning, Deep Learning
+  }}
+\end{itemize}
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Responsive Blog Application} $|$ \textit{Python, Django, SQL, HTML, CSS}}{2024}
+    \resumeItemListStart
+      \resumeItem{Developed a full-stack web application allowing users to create, update, and delete blog posts.}
+      \resumeItem{Implemented secure user authentication and optimized database for efficient data retrieval.}
+      \resumeItem{Reduced page load time by 40\% and increased user engagement by 70\% through responsive design.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Conversational AI ChatBot} $|$ \textit{Python, Flask, OpenAI API, HTML, CSS}}{2024}
+    \resumeItemListStart
+      \resumeItem{Built an AI-driven chatbot using Python and machine learning techniques.}
+      \resumeItem{Implemented robust error handling for API timeouts and rate limits.}
+      \resumeItem{Improved user engagement by 50\% through advanced NLP features for enhanced user interactions.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Attendance Recognition System} $|$ \textit{OpenCV, Django, HTML, CSS}}{2023}
+    \resumeItemListStart
+      \resumeItem{Developed a contactless smart attendance system using facial recognition.}
+      \resumeItem{Achieved 95\%+ accuracy in real-time facial recognition conditions.}
+      \resumeItem{Reduced administrative workload by 60\% through automation and provided actionable data insights.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Student Trainee}{August,2023- Sept,2023}
+    {Compsoft Solutions}{Online}
+    \resumeItemListStart
+      \resumeItem{Worked on developing a web application using Django and SQL, gaining practical experience in web development}
+      \resumeItem{Gained practical experience in software engineering principles and data science.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Member}{ Sept,2022- Present}
+    { Student Consultative Committee}{Online}
+    \resumeItemListStart
+      \resumeItem{Resolved student queries related to academics and welfare.}
+      \resumeItem{Improved student satisfaction by 25\% through active involvement.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Achievements and Certifications}
+\resumeItemListStart
+  \resumeItem{Ranked 4th in HKBK coding contest, demonstrating proficiency in algorithms and problem-solving.}
+  \resumeItem{Completed certifications in Python, Data Structures and Algorithms, and Machine Learning.}
+  \resumeItem{Participated in AI and IoT workshop organized by HKBK and VTU.}
+  \resumeItem{Coordinated week-long technical fest, managing 20+ team members and executing 15+ events.}
+\resumeItemListEnd
+
+\end{document}
