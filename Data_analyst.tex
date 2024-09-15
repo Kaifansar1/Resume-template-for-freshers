@@ -1,0 +1,137 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+\input{glyphtounicode}
+
+% Adjust page margins
+\geometry{
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kaif Ansari} \\ \vspace{1pt}
+    \small +91-9380745697 $|$ \href{mailto:mdkaifansa53@gmail.com}{\underline{mdkaifansa53@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/kaif-ansarib9/}{\underline{linkedin.com/in/kaif-ansarib9/}} $|$
+    \href{https://github.com/Kaifansar1?tab=repositories}{\underline{github.com/Kaifansar1}}
+\end{center}
+
+\section{Professional Summary}
+\small{Data Analytics Enthusiast with hands-on experience in leveraging data insights to drive strategic decisions. Proficient in data analysis, visualization, and statistical modeling using tools like Power BI, SQL, and Python. Adept at transforming complex datasets into actionable insights to deliver impactful business outcomes.}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Engineering in Computer Science}{Sep. 2020 -- July 2024}
+    {HKBK College Of Engineering, Bangalore}{}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Analytical Tools:} Proficient in Power BI, MySQL, and Excel; experience with programming in Jupyter Notebook. \\
+   \textbf{Programming Languages:} Expertise in SQL, Python, and libraries (NumPy, Pandas, Matplotlib, Seaborn). \\
+   \textbf{Technical Skills:} Proficient in data wrangling, cleaning, and modeling, with hands-on experience in statistical data analysis and visualization. \\
+   \textbf{Core Competencies:} Collaborates effectively with cross-functional teams, communicating insights to both technical and non-technical stakeholders. Quickly adapts to business needs and domain knowledge.}}
+\end{itemize}
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Sales Data Insights Platform} $|$ \textit{SQL and Power BI}}{2024}
+    \resumeItemListStart
+      \resumeItem{Designed a \textbf{Snowflake schema} in MySQL, developing stored procedures to extract key metrics for finance, sales, and supply chain analysis, improving data retrieval speed by \textbf{30\%}.}
+      \resumeItem{Integrated Power BI with MySQL and Excel, leveraging Power Query and DAX to build \textbf{10+ interactive dashboards}, enhancing data-driven decision-making for \textbf{50+ stakeholders}.}
+      \resumeItem{Conducted \textbf{User Acceptance Testing (UAT)} and data validation, optimizing dashboard performance and reducing quality issues by \textbf{20\%} based on feedback.}
+      \resumeItem{Delivered automated dashboards with detailed reports on key markets and customers, streamlining \textbf{data refreshes} and improving reporting efficiency by \textbf{35\%}.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Zomato Data Analytics Dashboard} $|$ \textit{Python and Jupyter Notebook}}{2024}
+    \resumeItemListStart
+      \resumeItem{Analyzed \textbf{100,000+ restaurant records} using Python libraries (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning, trend identification, and statistical visualization.}
+      \resumeItem{Identified key business insights, including \textbf{20\% higher ratings for online orders}, \textbf{15\% lower costs for couples dining}, and a \textbf{60\% preference for dining over takeaway services}, leading to actionable recommendations for restaurant operators.}
+      \resumeItem{Developed and deployed \textbf{interactive dashboards} using Google Colab/Jupyter Notebook, effectively communicating insights to stakeholders, improving decision-making processes by \textbf{30\%}.}
+      \resumeItem{Automated data workflows, improving data processing efficiency by \textbf{40\%} through sophisticated data manipulation techniques.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Data Analyst Intern}{Jan 2024 -- Apr 2024}
+    {Compsoft Solutions}{}
+    \resumeItemListStart
+      \resumeItem{Developed \textbf{10+ Power BI dashboards} with interactive KPIs and trend analyses, utilized by \textbf{50+ stakeholders} for enhanced decision-making.}
+      \resumeItem{Automated data workflows, improving data processing efficiency by \textbf{40\%}.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\section{Achievements and Certifications}
+\resumeItemListStart
+  \resumeItem{Machine Learning with Python from Compsoft Technologies.}
+  \resumeItem{Python A-Z and Machine Learning from Udemy.}
+  \resumeItem{Participated in AI and IoT workshop organized by HKBK and VTU.}
+  \resumeItem{Successfully completed Data Analyst certification from UpGrad Campus.}
+\resumeItemListEnd
+
+\end{document}
